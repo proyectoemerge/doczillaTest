@@ -9,6 +9,7 @@ params=conf()
 options =  webdriver.ChromeOptions()
 options.add_argument('--start-maximized')
 options.add_argument('--disable-extensions')
+options.add_argument('--no-sandbox')
 driver_path =params["driver"]
 def consulta1(thr):
     tiempo_inicio = datetime.datetime.now()
